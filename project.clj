@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.8.0"]]
   :main ^:skip-aot clj-z3.core
   :target-path "target/%s"
+  :resource-paths ["resources/z3/bin/com.microsoft.z3.jar"]
   :profiles {:uberjar {:aot :all}})
